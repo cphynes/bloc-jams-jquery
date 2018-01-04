@@ -2,9 +2,12 @@
   album.songs.forEach( (song, index) => {
     song.element = $(`
       <tr>
+<<<<<<< HEAD
         <td>index</td>
         <td>song.title</td>
         <td>song.duration</td>
+=======
+>>>>>>> checkpoint-12-bloc-jams-jquery-song-list
         <td>
           <button>
             <span class="song-number">${index + 1}</span>
